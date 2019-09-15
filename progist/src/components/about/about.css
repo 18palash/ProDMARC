@@ -1,0 +1,9 @@
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.card {
+  padding-right: 30px;
+  padding-left: 30px;
+}

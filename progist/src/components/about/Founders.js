@@ -2,7 +2,9 @@ import React from 'react';
 const Founders = () => {
     return(
         <div>
+            
             <div className="section text-center">
+                <div className="card">
                         <h2 className="title">About Founders</h2>
                         <div className="team">
                             <div className="row">
@@ -17,7 +19,7 @@ const Founders = () => {
                                                 <small className="card-description text-muted">Founder &amp; CEO</small>
                                             </h4>
                                             <div className="card-body">
-                                                <p className="card-description">Bhavin is a cyber security evangelist with over 20 years of combined IT and Information Security 
+                                                <p className="card-description h5">Bhavin is a cyber security evangelist with over 20 years of combined IT and Information Security 
                                                 work experience. Bhavin has a BFSI work experience of more than 14 years and was a deputy to the CISO in the Information 
                                                 Security Group of ICICI Bank. Bhavin was responsible for all key areas of information and cyber security including governance,
                                                 strategy, incident &amp; vulnerability management and security awareness. Prior to joining ICICI Bank, he was senior consultant 
@@ -31,8 +33,8 @@ const Founders = () => {
                                                 Technology Pvt. Ltd.) organised webinar for all banks on the topic of DMARC.</p>
                                             </div>
                                             <div className="card-footer justify-content-center">
-                                                <a href="#pablo" className="btn btn-link btn-just-icon"><i className="fa fa-twitter" /></a>
-                                                <a href="#pablo" className="btn btn-link btn-just-icon"><i className="fa fa-instagram" /></a>
+                                                <a href="#" className="btn btn-link btn-just-icon"><i className="fa fa-twitter" /></a>
+                                                
                                                 <a href="https://www.linkedin.com/in/bhavin-bhansali-90b93222/" className="btn btn-link btn-just-icon"><i className="fa fa-linkedin" /></a>
                                             </div>
                                         </div>
@@ -49,14 +51,14 @@ const Founders = () => {
                                                 <small className="card-description text-muted">Founder</small>
                                             </h4>
                                             <div className="card-body">
-                                                <p className="card-description">Chaithanya is a cyber security veteran with a strong hands-on experience of more than 10 years.
+                                                <p className="card-description h5">Chaithanya is a cyber security veteran with a strong hands-on experience of more than 10 years.
                                                 He was employed with ICICI Bank in the Information Security Group for 8 years. Subsequently, he joined Wipro Technologies 
                                                 and in his stint of 2 years, he has worked on several projects of enterprise security architecture and implementation. He 
                                                 has strong information security hands-on experience in all key tenets of information security including security governance,
                                                 projects, vulnerability and ethical hacking, incident response and security awareness.</p>
                                             </div>
                                             <div className="card-footer justify-content-center">
-                                                <a href="#pablo" className="btn btn-link btn-just-icon"><i className="fa fa-twitter" /></a>
+                                                <a href="#" className="btn btn-link btn-just-icon"><i className="fa fa-twitter" /></a>
                                                 <a href="https://www.linkedin.com/in/chaithanya-rao-cissp-ceh-ab5b8944/" className="btn btn-link btn-just-icon"><i className="fa fa-linkedin" /></a>
                                             </div>
                                         </div>
@@ -65,6 +67,7 @@ const Founders = () => {
                             </div>
                         </div>
                     </div>
+            </div>        
         </div>
     );
 }
