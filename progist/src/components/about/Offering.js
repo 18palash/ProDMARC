@@ -3,9 +3,10 @@ import React from 'react';
 const Offering = () => {
     return(
         <div>
-            <div className="container">
+            <div >
+                <div className="column">
                 <div className="row">
-                    <div className="tim-typo">
+                    <div className="card">
                         <h3 className="title">
                         About ProDMARC</h3>
 
@@ -19,7 +20,7 @@ const Offering = () => {
                 </div>
 
                 <div className="row">
-                    <div className="tim-typo">
+                    <div className="card">
                         <h3 className="title">
                         ProgIST’s Offering - Consulting</h3>
                     
@@ -38,6 +39,7 @@ const Offering = () => {
                             <li><p className="h4"></p>Sample forensic data for the phishing fraud being attempted</li>
                         </ul>             
                     </div>      
+                </div>
                 </div>
             </div>
         </div>

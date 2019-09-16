@@ -9,7 +9,7 @@ import Certificate from './about/Certificate';
 
 const About = () => {
     return(
-        <div>
+        <div className="user-about">
             <Offering/>
             <Founders/>
             <Membership/>
