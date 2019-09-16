@@ -7,7 +7,7 @@ const Founders = () => {
                 <div className="card">
                     <div className="card-header card-header-text card-header-primary">
                         <div className="card-text">
-                            <h4 className="card-title">About Founders</h4>
+                            <h3 className="card-title text-center">About Founders</h3>
                         </div>
                     </div>
                     <div className="card-body">
@@ -19,7 +19,7 @@ const Founders = () => {
                                             <div className="col-md-6 ml-auto mr-auto">
                                                 <img src="https://static.wixstatic.com/media/2c92e2_198557822c6e4460b85ee0df26a326f4~mv2.jpg/v1/fill/w_308,h_308,al_c,lg_1,q_80/bhavin.webp" alt="Thumbnail Image" className="img-raised rounded-circle img-fluid" />
                                             </div>
-                                            <h4 className="card-title">Bhavin Bhansali
+                                            <h4 className="card-title text-center">Bhavin Bhansali
                                             <br />
                                                 <small className="card-description text-muted">Founder &amp; CEO</small>
                                             </h4>
@@ -51,7 +51,7 @@ const Founders = () => {
                                             <div className="col-md-6 ml-auto mr-auto">
                                                 <img src="https://static.wixstatic.com/media/2c92e2_5c52f3dbdc3e40e0879d8d12da842f40~mv2.png/v1/fill/w_300,h_300,al_c,lg_1,q_80/Chaithanya_v2.webp" alt="Thumbnail Image" className="img-raised rounded-circle img-fluid" />
                                             </div>
-                                            <h4 className="card-title">Chaithanya Rao
+                                            <h4 className="card-title text-center">Chaithanya Rao
                                                 <br />
                                                 <small className="card-description text-muted">Founder</small>
                                             </h4>

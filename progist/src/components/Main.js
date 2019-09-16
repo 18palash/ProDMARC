@@ -12,7 +12,7 @@ const Main = () => {
         <BrowserRouter>
         <div>
             <div className="main main-raised">
-                <div className="container">
+                <div className="usercontainer">
                 {/* Section 1*/}
                 <switch>
                 <Route path="/" exact component={Home} />

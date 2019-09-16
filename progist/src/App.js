@@ -7,15 +7,17 @@ import Footer from './components/Footer';
 import {BrowserRouter, Route} from 'react-router-dom';
 
 
+
 function App() {
   return (
     <div>
       <BrowserRouter>
+      <Header/>
       <HeaderHome/>
       <Main/>
       <Footer/>
       </BrowserRouter>
-      <Header/>
+      
     </div>
   );
 }

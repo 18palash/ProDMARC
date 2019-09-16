@@ -6,7 +6,7 @@ const State = () => {
             <div className="card-header card-header-primary">
             {/* colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" */}
                 <div className="nav-tabs-navigation">
-                    <div className="nav-tabs-wrapper">
+                    <div className="nav-tabs-wrapper ">
                         <ul className="nav nav-tabs" data-tabs="tabs">
                             <li className="nav-item">
                                 <a className="nav-link active" href="#Problem" data-toggle="tab">

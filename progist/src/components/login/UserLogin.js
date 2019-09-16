@@ -4,14 +4,16 @@ const UserLogin = () => {
         <div className='userlogin'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 ml-auto mr-auto">
+                    <div className="col-lg-6 col-md-6 ml-auto mr-auto">
                         <div className="card card-login">
                             <form className="form" method action>
                                 <div className="card-header card-header-primary text-center">
-                                <h4 className="card-title">Login</h4>                                
+                                <h3 className="card-title">Login</h3> 
+                                                               
                                 </div>                                
                                 <div className="card-body">
                                 <div className="input-group">
+                                    
                                     <div className="input-group-prepend">
                                     <span className="input-group-text">
                                         <i className="material-icons">face</i>
@@ -36,6 +38,7 @@ const UserLogin = () => {
                                     <input type="password" className="form-control" placeholder="Password..." />
                                 </div>
                                 </div>
+                                <br/><br/>
                                 <div className="footer text-center">
                                 <a href="#pablo" className="btn btn-primary btn-link btn-wd btn-lg">Get Started</a>
                                 </div>

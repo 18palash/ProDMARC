@@ -9,7 +9,7 @@ const Offering = () => {
                 <div className="card">
                     <div className="card-header card-header-text card-header-primary">
                         <div className="card-text">
-                            <h4 className="card-title">About ProDMARC</h4>
+                            <h3 className="card-title text-center">About ProDMARC</h3>
                         </div>
                     </div>
                     <div className="card-body">
@@ -28,7 +28,7 @@ const Offering = () => {
                 <div className="card">
                     <div className="card-header card-header-text card-header-primary">
                         <div className="card-text">
-                            <h4 className="card-title">ProgIST’s Offering - Consulting</h4>
+                            <h3 className="card-title text-center">ProgIST’s Offering - Consulting</h3>
                         </div>
                     </div>
                     <div className="card-body">
