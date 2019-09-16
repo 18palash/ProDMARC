@@ -2,11 +2,16 @@ import React from 'react';
 const Founders = () => {
     return(
         <div>
-            
-            <div className="section text-center">
+
+            <div className="col-md-14">
                 <div className="card">
-                        <h2 className="title">About Founders</h2>
-                        <div className="team">
+                    <div className="card-header card-header-text card-header-primary">
+                        <div className="card-text">
+                            <h4 className="card-title">About Founders</h4>
+                        </div>
+                    </div>
+                    <div className="card-body">
+                    <div className="team">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="team-player">
@@ -67,7 +72,12 @@ const Founders = () => {
                             </div>
                         </div>
                     </div>
-            </div>        
+                </div>
+            </div>
+
+
+            
+            
         </div>
     );
 }
