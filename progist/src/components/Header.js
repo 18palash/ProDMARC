@@ -1,8 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+
 const Header = () => {
     return (
         <div>
+            
             <nav className="navbar  navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll={100} id="sectionsNav">
                 <div className="container">
                 <div className="navbar-translate">
@@ -15,40 +17,38 @@ const Header = () => {
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a  className="nav-link" >Home</a>
+                        <Link to="/"  className="nav-link" >Home</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link"   >
+                        <Link to="/customer" className="nav-link"   >
                         Customers
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link"  >
+                        <Link to="/resource" className="nav-link"  >
                         Resources
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link"   >
+                        <Link to="/about" className="nav-link"   >
                         About
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link"  >
+                        <Link to="/contact" className="nav-link"  >
                         Contact Us
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link"  >
+                        <Link to="/login" className="nav-link"  >
                         Customer Login
-                        </a>
+                        </Link>
                     </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-            
-            
+        
         </div>
     );
 }
