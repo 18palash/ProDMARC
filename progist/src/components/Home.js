@@ -5,7 +5,6 @@ import Trial from './home/Trial';
 const Home = () => {
     return(
         <div>
-            
             <Services/>
             <Trial/>
         </div>

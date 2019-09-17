@@ -8,7 +8,7 @@ const FormContact = () => {
                         <div className="col-md-8 ml-auto mr-auto">
                             <h2 className="text-center title">Drop Us A Line</h2>
                             <h4 className="text-center description">We would be glad to reach out to you! Kindly share your contact details.
-                                Alternately you can write to us at <a>info@prgist.in</a> ​</h4><br/>
+                                Alternately you can write to us at <a href="mailto:info@prgist.in">info@prgist.in</a> ​</h4><br/>
                             <form className="contact-form">
                                 <div className="row">
                                     <div className="col-md-6">

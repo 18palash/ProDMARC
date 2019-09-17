@@ -1,7 +1,12 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import HeaderHome from './components/home/HeaderHome';
+import HeaderHome from './components/pageHeaders/HeaderHome';
+import HeaderAbout from './components/pageHeaders/HeaderAbout';
+import HeaderResource from './components/pageHeaders/HeaderResource';
+import HeaderCustomer from './components/pageHeaders/HeaderCustomer';
+import HeaderContact from './components/pageHeaders/HeaderContact';
+import HeaderLogin from './components/pageHeaders/HeaderLogin';
 import Home from './components/Home';
 import About from './components/About';
 import Resource from './components/Resource';
@@ -19,7 +24,15 @@ function App() {
     <div>
       <BrowserRouter>
       <Header/>
-      <HeaderHome/>
+      <Switch>
+        <Route path="/" exact component={HeaderHome} />
+        <Route path="/about" component={HeaderAbout} />
+        <Route path="/resource" component={HeaderResource} />
+        <Route path="/customer" component={HeaderCustomer} />
+        <Route path="/contact" component={HeaderContact} />
+        <Route path="/login" component={HeaderLogin} />
+      </Switch>
+      
         <div className="main main-raised">
           <div className="usercontainer">
                 {/* Section 1*/}
