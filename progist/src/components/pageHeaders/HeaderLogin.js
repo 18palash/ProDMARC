@@ -3,7 +3,7 @@ import React from 'react';
 const HeaderLogin = () => {
     return(
         <div>
-            <div className="page-header header-filter"  style={{backgroundImage: 'url("https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462434_960_720.jpg")'}}>
+            <div className="page-header header-filter"  style={{backgroundImage: 'url("https://files2.abingcdn.com/balkaneu.com/uploads/2018/03/08210946/Linkedin_wallpaper_paolo_bruno.jpg")'}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">

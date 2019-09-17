@@ -40,7 +40,9 @@ const UserLogin = () => {
                                 </div>
                                 <br/><br/>
                                 <div className="footer text-center">
-                                <a href="#pablo" className="btn btn-primary btn-link btn-wd btn-lg">Get Started</a>
+                                <button className="btn btn-primary btn-raised">
+                                        Get Started
+                                    </button>
                                 </div>
                             </form>
                         </div>

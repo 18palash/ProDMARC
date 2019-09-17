@@ -3,7 +3,7 @@ import React from 'react';
 const HeaderResource = () => {
     return(
         <div>
-            <div className="page-header header-filter"  style={{backgroundImage: 'url("https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462434_960_720.jpg")'}}>
+            <div className="page-header header-filter"  style={{backgroundImage: 'url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-technology-network-security-education-security-background-image_259502.jpg")'}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">

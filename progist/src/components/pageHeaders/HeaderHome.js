@@ -7,10 +7,8 @@ const HeaderHome = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                        <h1 className="title">Your Story Starts With Us.</h1>
-                        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A molestiae, dignissimos possimus ad totam facilis 
-                            ipsam quo? Pariatur cupiditate labore vero laudantium magnam, illum ratione fugit eveniet? Accusamus, cupiditate 
-                            voluptate?</h5>        
+                        <h1 className="title">Stop Spoofing Attacks and Protect Your Brand</h1>
+                               
                         </div>
                     </div>
                 </div>
