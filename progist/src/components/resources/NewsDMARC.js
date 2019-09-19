@@ -5,8 +5,8 @@ const NewsDMARC = () => {
         <div>
             <div className='card'>
                 <div className="timeline">
-                    <div className="containert left">
-                        <div className="content">
+                    <div className="containert left  ">
+                        <div className="content ">
                             <h2>January 9, 2018</h2>
                             <p>Email phishing attack on Florida Agency for Health Care Administration impacts 30,000 medicaid recipients. </p>
                         </div>
